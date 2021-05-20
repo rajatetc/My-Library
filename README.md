@@ -1,5 +1,13 @@
-# My-Library
+# My Library
 
-A full stack app with CRUD functionality made using Node.js, Express and MongoDB.
+Add and search authors and books. 
 
-Live at: https://meri-library.herokuapp.com/
+
+## Tech Stack
+
+Node, Express, MongoDB, EJS
+
+
+## Deployment
+
+Heroku
