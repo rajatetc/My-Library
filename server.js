@@ -5,6 +5,8 @@ if (process.env.NODE_ENV !== 'production') {
 const express = require('express')
 const app = express()
 const expressLayouts = require('express-ejs-layouts')
+
+// Lets you use HTTP verbs such as PUT or DELETE in places where the client doesn't support it.
 const methodOverride = require('method-override')
 
 const indexRouter = require('./routes/index')
